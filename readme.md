@@ -1,1 +1,1 @@
-Short Lnk App (Meteor/React app)
+Short Lnk App - link shortener app built with Meteor and React.
