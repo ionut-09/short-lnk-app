@@ -46,7 +46,7 @@ export default class LinksList extends React.Component{
         }
         
         return this.state.links.map((link) => {
-            const cloudLink = 'https://react-meteor-app-ionutmargarint.c9users.io/';
+            const cloudLink = 'https://short-lnk-ionut.herokuapp.com/';
             const shortUrl = cloudLink + link._id;
             // const shortUrl = Meteor.absoluteUrl(link._id);
             return <LinksListItem key={link._id} shortUrl={shortUrl} {...link}/>;
